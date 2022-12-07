@@ -58,7 +58,7 @@ Ammo().then(function (Ammo) {
     renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setClearColor(0xbfd1e5);
     renderer.setPixelRatio(window.devicePixelRatio);
-    const pixelRatio = 2;
+    const pixelRatio = 1;
     renderer.setSize(
       Math.round(window.innerWidth * pixelRatio),
       Math.round(window.innerHeight * pixelRatio)
